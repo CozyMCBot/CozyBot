@@ -1,0 +1,93 @@
+[CALLER: RequestHandler.js:154:13 | MS: 1619648621947 | DATE: 4/28/2021, 6:23:41 PM]
+--------------------------------
+DiscordAPIError: Unknown Message
+EXTRA INFO:
+Promise {
+  <rejected> DiscordAPIError: Unknown Message
+      at RequestHandler.execute (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\rest\RequestHandler.js:154:13)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+      at async RequestHandler.push (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\rest\RequestHandler.js:39:14)
+      at async MessageManager.delete (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\managers\MessageManager.js:126:5) {
+    method: 'delete',
+    path: '/channels/837089342987173958/messages/837091683488759880',
+    code: 10008,
+    httpStatus: 404
+  }
+}
+--------------------------------
+[CALLER: RequestHandler.js:154:13 | MS: 1619650501665 | DATE: 4/28/2021, 6:55:01 PM]
+------------------------------------
+DiscordAPIError: Missing Permissions
+EXTRA INFO:
+Promise {
+  <rejected> DiscordAPIError: Missing Permissions
+      at RequestHandler.execute (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\rest\RequestHandler.js:154:13)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+      at async RequestHandler.push (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\rest\RequestHandler.js:39:14)
+      at async GuildMember.edit (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\structures\GuildMember.js:312:5) {
+    method: 'patch',
+    path: '/guilds/833496392009908224/members/689579541701722240',
+    code: 50013,
+    httpStatus: 403
+  }
+}
+------------------------------------
+[CALLER: RequestHandler.js:154:13 | MS: 1619651572922 | DATE: 4/28/2021, 7:12:52 PM]
+--------------------------------
+DiscordAPIError: Unknown Message
+EXTRA INFO:
+Promise {
+  <rejected> DiscordAPIError: Unknown Message
+      at RequestHandler.execute (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\rest\RequestHandler.js:154:13)
+      at runMicrotasks (<anonymous>)
+      at processTicksAndRejections (internal/process/task_queues.js:93:5)
+      at async RequestHandler.push (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\rest\RequestHandler.js:39:14)
+      at async MessageManager._fetchId (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\discord.js\src\managers\MessageManager.js:135:18)
+      at async C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\commands\admin\vote.js:106:41 {
+    method: 'get',
+    path: '/channels/837089342987173958/messages/837101781816705076',
+    code: 10008,
+    httpStatus: 404
+  }
+}
+--------------------------------
+[CALLER: resolveSeq-4a68b39b.js:1818:27 | MS: 1619652780893 | DATE: 4/28/2021, 7:33:00 PM]
+----------------------------------------------------------------
+YAMLSemanticError: Implicit map keys need to be on a single line
+EXTRA INFO:
+Promise {
+  <rejected> YAMLSemanticError: Implicit map keys need to be on a single line
+      at resolveBlockMapItems (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\resolveSeq-4a68b39b.js:1818:27)
+      at Object.resolveMap [as resolve] (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\resolveSeq-4a68b39b.js:1612:79)
+      at resolveByTagName (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\resolveSeq-4a68b39b.js:1384:25)
+      at resolveTag (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\resolveSeq-4a68b39b.js:1414:17)
+      at resolveNodeValue (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\resolveSeq-4a68b39b.js:1535:23)
+      at Object.resolveNode (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\resolveSeq-4a68b39b.js:1583:15)
+      at parseContents (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\Document-2cf6b08c.js:357:30)
+      at Document.parse (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\Document-2cf6b08c.js:615:5)
+      at parseDocument (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\index.js:44:37)
+      at Object.parse (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\node_modules\yaml\dist\index.js:55:15)
+      at new Config (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\modules\CustomConfig.js:22:25)
+      at Object.<anonymous> (C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\addons\music.js:11:16)
+      at Module._compile (internal/modules/cjs/loader.js:1063:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+      at Module.load (internal/modules/cjs/loader.js:928:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+      at Module.require (internal/modules/cjs/loader.js:952:19)
+      at require (internal/modules/cjs/helpers.js:88:18)
+      at C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\modules\handlers\AddonHandler.js:68:30
+      at Array.forEach (<anonymous>)
+      at C:\Users\imvua\Downloads\Corebot4.4.3-Cracked\modules\handlers\AddonHandler.js:65:18
+      at FSReqCallback.oncomplete (fs.js:171:23) {
+    source: PlainValue {
+      error: null,
+      range: [Range],
+      valueRange: [Range],
+      props: [],
+      type: 'PLAIN',
+      value: null,
+      resolved: [Scalar]
+    }
+  }
+}
+----------------------------------------------------------------
